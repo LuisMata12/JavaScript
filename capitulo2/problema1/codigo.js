@@ -19,3 +19,5 @@ validarCliente(17)
 validarCliente(1)
 validarCliente(2)
 validarCliente(0.2)
+// sistema que permite pasar solo a los amyores de edad
+// Y les da un entrada gratis a los primer persona que llega despues o a las dos 
