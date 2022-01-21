@@ -1,4 +1,5 @@
 var sueldo = 2000; 
+var array = []
 
 const sistemaDeChecado =() =>{
     let entrada = prompt("se cumplio con la hora de entrada todos los dias?");
@@ -28,7 +29,7 @@ const sistemaDeChecado =() =>{
         }else{
             alert(`perdiste tu bono de asistencia `)
             sueldo =  (dias * 93.333)
-            document.write(`Tu sueldo es de ${sueldo}<br> `)
+            document.write(`Tu sueldo es de ${sueldo}<br>Dias laborados ${dias} = $${dias * 93.333} <br> bono de putualidad = 0 <br> bono de asistecia = 300 `)
         }
     }
 
